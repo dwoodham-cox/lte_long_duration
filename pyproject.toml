@@ -1,0 +1,16 @@
+[project]
+name = "lte-long-duration"
+version = "0.1.0"
+description = "A script that queries NCM for Cradlepoint routers stuck in LTE failover."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ncm>=0.0.38",
+    "prettytable>=3.12.0",
+]
+
+[dependency-groups]
+dev = [
+    "pylint>=3.3.2",
+    "ruff>=0.8.2",
+]
